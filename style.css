@@ -1,0 +1,17 @@
+form input {
+  width: 300px;
+}
+
+.submit {
+  width: 150px;
+  background-color: #FFF;
+  border-color: #FFF;
+}
+
+div.search {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  left: 50%;
+  margin-left: -150px;
+}
