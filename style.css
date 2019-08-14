@@ -1,15 +1,12 @@
-body {
+html {
   font-family: arial, sans-serif;
-}
-
-img {
-  margin-top: 50%;
-  padding: 1px;
+  font-size: 13px;
 }
 
 #searchbar {
-  width: 400px;
-  margin: 8px 0 0 0px;
+  font-size: 16px;
+  width: 420px;
+  margin: 30px 0;
   padding: 12px;
   background-color: transparent;
   border: solid;
@@ -19,10 +16,15 @@ img {
 }
 
 .submit {
+  font-size: 14px;
+  text-align: center;
+  color: #222;
+  background-color: #FFF;
   width: 150px;
   padding: 10px;
-  background-color: #FFF;
   border: none;
+  border-radius: 5px;
+  cursor: pointer;
 }
 
 .submit:hover {
@@ -31,12 +33,20 @@ img {
   border-color: #DDDDDD;
 }
 
-div.search {
-  position: absolute;
-  width: 320px;
-  height: 320px;
-  left: 50%;
-  margin-left: -150px;
+.search {
+  /*position: absolute;*/
+  width: 500px;
+  /*left: 50%;*/
+  margin: 0 auto;
+  /*margin-left: -150px;*/
+}
+
+.search img {
+  /*margin-top: 50%;
+  padding: 1px;*/
+  display: block;
+  margin: 0 auto;
+  margin-top: 200px;
 }
 
 div.navbar li {
@@ -47,7 +57,6 @@ div.navbar li {
 }
 
 li a {
-  font-size: 12px;
   display: inline-block;
   margin: 8px;
   padding: 8px;
@@ -56,24 +65,31 @@ li a {
   text-decoration: none;
 }
 
-li a:hover {
+a:hover {
   text-decoration: underline;
 }
 
-div.footer-left{
+div.header {
+  top: 0;
+  overflow: hidden;
+  position: fixed;
+}
+
+div.footer {
   bottom: 0;
   overflow: hidden;
   position: fixed;
 }
 
-div.footer-right{
-  bottom: 0;
+div.footer a {
+  color: #222;
+}
+
+.left {
+  float: left;
+}
+
+.right {
   right: 0;
-  overflow: hidden;
-  position: fixed;
   float: right;
-}
-
-.f-list {
-  background-color: gray;
 }

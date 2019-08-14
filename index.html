@@ -2,46 +2,62 @@
 <html>
 <head>
   <title>Google</title>
+  <link rel="icon" href="./media/googletitle.png">
   <link href="reset.css" type="text/css" rel="stylesheet">
   <link href="style.css" type="text/css" rel="stylesheet">
 </head>
 
-<body>
-  <div class="navbar">
+<!-- Top Navigation Bar -->
+
+<header>
+  <div class="navbar header">
     <ul>
       <li><a href="#">About</a></li>
       <li><a href="#">Store</a></li>
     </ul>
   </div>
-  <div class="navbar">
+  <div class="navbar header right">
     <ul>
-      <li style="float: right;"><a href="#">Gmail</a></li>
-      <li style="float: right;"><a href="#">Images</a></li>
+      <li><a href="#">Gmail</a></li>
+      <li><a href="#">Images</a></li>
+     <!-- <li><button>Sign In</button></li>  -->
     </ul>
   </div>
+</header>
 
-  <div class="search">
-    <img src="./media/googlelogo.png" alt="Google logo">
-    <form action="#" method="POST">
-      <input type="text" name="search" id="searchbar">
-      <br>
-      <input type="submit" class="submit" value="Google Search">
-      <input type="submit" class="submit" value="I'm Feeling Lucky">
-    </form>
-  </div>
+<!-- Image and Searchbar -->
+
+<body>
+  <center>
+    <div class="search">
+      <img src="./media/googlelogo.png" alt="Google logo">
+      <form action="#" method="POST">
+        <input type="text" name="search" id="searchbar">
+        <br>
+        <div class="buttons">
+          <input type="submit" class="submit" value="Google Search">
+          <input type="submit" class="submit" value="I'm Feeling Lucky">
+        </div>
+      </form>
+    </div>
+  </center>
 </body>
 
+<!-- Bottom Navigation Bar -->
+
 <footer>
-  <div class="navbar footer-left">
+  <div class="navbar footer left">
     <ul>
       <li><a href="#">Advertising</a></li>
       <li><a href="#">Business</a></li>
       <li><a href="#">How Search works</a></li>
+    </ul>
   </div>
-  <div class="navbar footer-right">
-      <li style="float: right;"><a href="#">Settings</a></li>
-      <li style="float: right;"><a href="#">Terms</a></li>
-      <li style="float: right;"><a href="#">Privacy</a></li>
+  <div class="navbar footer right">
+    <ul>
+      <li><a href="#">Privacy</a></li>
+      <li><a href="#">Terms</a></li>
+      <li><a href="#">Settings</a></li>
     </ul>
   <div/>
 </footer>
